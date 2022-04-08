@@ -3,11 +3,31 @@ This project consists of two parts, Mask R-CNN based model and C3D-based-model. 
 To protect privacy, this project does not provide original data, only trained models and prediction codes are available.
 
 # Mask R-CNN based model
-The code of Mask R-CNN is implemented based on mmdetection (https://github.com/open-mmlab/mmdetection) with slight modifications
+The code of Mask R-CNN is implemented based on mmdetection (https://github.com/open-mmlab/mmdetection) with slight modifications. 
+## Install
+a. Install a virtual environment.
+
+  `conda create -n MRI python=3.7 -y`
+  
+  `conda activate MRI`
+  
+b. Install pytorch and torchversion.
+
+  `conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch`
+  
+c. Install mmcv.
+
+  `pip install mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html`
+  
+d. Install the remaining required environment packages.
+
+  `pip install -r requirements/build.txt`
+  
+  `python setup.py develop`
 
 
 # C3D-based-model
-## install 
+## Install 
 
 This code requires you have Keras 2 and TensorFlow 1 or greater installed. Please see the `requirements.txt` file. To ensure you're up to date, run:
 
