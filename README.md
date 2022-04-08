@@ -1,5 +1,5 @@
 # MRI-DST
-This project consists of two parts, Mask R-CNN based model and C3D-based-model. Mask R-CNN based model is used to segment the images. These segmented images is then fed into the C3D-based model along with the remaining attributes to predict the probability of ≥3 linear stapler cartridges.
+This project consists of two parts, Mask R-CNN based model and C3D-based-model. Mask R-CNN based model is used to segment the images. These segmented images is then fed into the C3D-based-model along with the remaining attributes to predict the probability of ≥3 linear stapler cartridges.
 
 To protect patient privacy, this project does not provide original data, only trained models and prediction codes are available.
 
