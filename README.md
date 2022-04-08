@@ -40,6 +40,6 @@ This code requires you have Keras 2 and TensorFlow 1 or greater installed. Pleas
 `pip install -r requirements.txt`
 
 ## Test the trained model
-The model(c3d-based-model.hdf5) can be downloaded at the release of this project. Then Run the test command:
+The model (c3d-based-model.hdf5) can be downloaded at the release of this project. Then Run the test command:
 
 `python test.py`
