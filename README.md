@@ -25,6 +25,11 @@ d. Install the remaining required environment packages.
   
   `python setup.py develop`
 
+## Test the trained model
+
+The model(mask_rcnn-based-model.pth) can be downloaded at the release of this project. Then Run the test command:
+
+`python test.py --img  the_tested_img_path/the_image_name.jpg`
 
 # C3D-based-model
 ## Install 
@@ -34,6 +39,6 @@ This code requires you have Keras 2 and TensorFlow 1 or greater installed. Pleas
 `pip install -r requirements.txt`
 
 ## Test the trained model
-The model(c3d-based-model.hdf5) can be downloaded at the release of this project. Then Run:
+The model(c3d-based-model.hdf5) can be downloaded at the release of this project. Then Run the test command:
 
 `python test.py`
